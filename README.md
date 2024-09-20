@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+# Angular Project with Figma Design Components
+
+This project contains three Angular components based on a Figma design. It integrates a chart using `ng2-charts` and `chart.js`. The components are part of a simple page within an Angular sample application, with data provided in JSON format.
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 20)
+- [Angular CLI](https://angular.io/cli) (version 18)
+
+### Installing
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Yuvanesh2098/Figma-based.git
+   cd  Figma-based
+   npm install - if not
+   ng serve
