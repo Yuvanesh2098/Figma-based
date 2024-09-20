@@ -1,0 +1,19 @@
+<div class="course-details">
+    <h2>Course Code: {{ course.code }}</h2>
+    <p><strong>Course Name:</strong> {{ course.name }}</p>
+    <p><strong>Course Type:</strong> {{ course.type }}</p>
+    <p><strong>Course Period:</strong> {{ course.period }}</p>
+    <p><strong>Credits:</strong> Lecture - {{ course.credits.lecture }}, 
+        Practical - {{ course.credits.practical }}</p>
+  
+    <h3>Course Outcomes (COs)</h3>
+    <div>
+      <span *ngFor="let co of course.outcomes" class="badge">{{ co }}</span>
+    </div>
+  
+    <h3>Mapped to this Course</h3>
+    <div>
+      <span *ngFor="let po of course.mappedOutcomes" class="badge">{{ po }}</span>
+    </div>
+  </div>
+  
